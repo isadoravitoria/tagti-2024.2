@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" container= "width=device-width,  initial-scale=1.0">
+    <title> Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/estilos.css')}}">
+</head>
+<body>
+    <nav>
+        <a href="/"> HOME</a>
+        <a href="/sobre"> SOBRE </a>
+        <a href= "/contato">CONTATO</a>
+    </nav>
+    <div class="container">
+        <header>
+        <h1> Quen sou eu</h1>
+        <p> Meu nome é Isadora Vitória, sou desenvolvedora web e estou apredendo a usar o Flask</p>
+        </header>
+        <section>
+
+
+    </heard>
+    <section>
+        <img src="{{ url_for('static',filename='img/princesa.png')}}"alt= "Minha Foto">
+
+        <aside>
+            <h2> Minnhas habilidades</h2>
+            <ul>
+                <li> HTML </li>
+                <li> CSS </li>
+                <li>JavaScript </li>
+                <li> Python </li>
+            </ul>
+        </aside>
+    </section>
+    <article>
+        <h3>Experiência proficional</h3>
+        <p> Trabalhei como desenvolvedora web em uma empresa de tecnologia por 6 anos.</p>
+    </article>
+</div>
+<footer>
+    <p> Desenvolvido po <a href="http://instagram.com/indicoir"> Indico Ir!</a></p>
+</footer>
+
+</body>
+</html>
